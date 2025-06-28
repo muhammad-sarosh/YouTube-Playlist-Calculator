@@ -172,8 +172,8 @@ def main() -> None:
         print("No videos found in the playlist.")
         return
 
-    desired_minutes = get_valid_watch_time()
     start_idx, start_offset = get_valid_start_input(len(entries))
+    desired_minutes = get_valid_watch_time()
 
     print("\nCalculating...\n")
 
